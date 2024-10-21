@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Simple Website</div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+    
+    <nav id="nav-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Products</a>
+                <ul class="dropdown-content">
+                    <li><a href="/Task_2/assets/products.html">All Products</a></li>
+                    <li><a href="electronics.html">Electronics</a></li>
+                    <li><a href="clothing.html">Clothing</a></li>
+                    <li><a href="books.html">Books</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">About</a>
+                <ul class="dropdown-content">
+                    <li><a href="/Task_2/assets/company.html">Our Company</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="mission.html">Our Mission</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Welcome to our Simple Website</h1>
+        <p>This is the home page. Use the navigation menu to explore other pages.</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

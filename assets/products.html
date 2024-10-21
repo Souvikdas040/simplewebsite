@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website - Products</title>
+    <link rel="stylesheet" href="/Task_2/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Simple Website</div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+    <nav id="nav-menu">
+        <ul>
+            <li><a href="/Task_2/index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Products</a>
+                <ul class="dropdown-content">
+                    <li><a href="products.html">All Products</a></li>
+                    <li><a href="electronics.html">Electronics</a></li>
+                    <li><a href="clothing.html">Clothing</a></li>
+                    <li><a href="books.html">Books</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">About</a>
+                <ul class="dropdown-content">
+                    <li><a href="company.html">Our Company</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="mission.html">Our Mission</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Our Products</h1>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://img.freepik.com/premium-photo/vintage-modern-technology-elements_1143726-150.jpg" width="300px" height="300px" alt="Electronics" class="product-image">
+                <h2>Electronics</h2>
+                <p>Discover our latest gadgets and devices.</p>
+                <a href="electronics.html" class="btn">View Electronics</a>
+            </div>
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/fc/ae/2b/fcae2b475bdb77362b3ab9d82fb4caaf.jpg" width="300px" height="300px" alt="Clothing" class="product-image">
+                <h2>Clothing</h2>
+                <p>Explore our fashionable apparel collection.</p>
+                <a href="clothing.html" class="btn">View Clothing</a>
+            </div>
+            <div class="product-card">
+                <img src="https://thumbs.dreamstime.com/z/books-collection-5303016.jpg?w=400" width="300px" height="300px" alt="Books" class="product-image">
+                <h2>Books</h2>
+                <p>Browse our extensive library of books.</p>
+                <a href="books.html" class="btn">View Books</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="/Task_2/script.js"></script>
+</body>
+</html>

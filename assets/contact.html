@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website - Contact Us</title>
+    <link rel="stylesheet" href="/Task_2/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Simple Website</div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+    <nav id="nav-menu">
+        <ul>
+            <li><a href="/Task_2/index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Products</a>
+                <ul class="dropdown-content">
+                    <li><a href="products.html">All Products</a></li>
+                    <li><a href="electronics.html">Electronics</a></li>
+                    <li><a href="clothing.html">Clothing</a></li>
+                    <li><a href="books.html">Books</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">About</a>
+                <ul class="dropdown-content">
+                    <li><a href="company.html">Our Company</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="mission.html">Our Mission</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Contact Us</h1>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p>We'd love to hear from you. Please fill out the form or use the contact information below.</p>
+                <ul class="contact-details">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Main St, Anytown, USA 12345</li>
+                    <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                    <li><i class="fas fa-envelope"></i> info@simplewebsite.com</li>
+                </ul>
+                <img src="https://clipart-library.com/2023/customer-service-woman-clipart-xl.png" width="300px" height="200px" alt="Contact Us" class="contact-image">
+            </div>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="btn" style="cursor: pointer;">Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="/Task_2/script.js"></script>
+</body>
+</html>
